@@ -25,7 +25,9 @@
         <activity
             android:name=".ui.edit.EditActivity"
             android:windowSoftInputMode="adjustResize" />
-        <activity android:name=".ui.theme.ThemeActivity" />
+        <activity
+            android:name=".ui.theme.ThemeActivity"
+            android:label="@string/theme" />
         <activity android:name=".ui.aboutapp.AboutAppActivity" />
         <activity
             android:name=".ui.search.SearchActivity"
