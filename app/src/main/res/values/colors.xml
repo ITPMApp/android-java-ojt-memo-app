@@ -15,11 +15,11 @@
     <color name="colorStatusBar1">#DC8D7B</color>// 220 141 123
     <color name="colorStatusBar2">#DE8EB3</color>// 222 142 179
     <color name="colorStatusBar3">#C79CE8</color>// 199 156 232
-    <color name="colorStatusBar4">#304FC1</color>// 48 79 193
+    <color name="colorStatusBar4">#E4A469</color>// 48 79 193
     <color name="colorStatusBar5">#92AAD6</color>// 146 170 214
     <color name="colorStatusBar6">#81AAA7</color>// 129 170 167
     <color name="colorStatusBar7">#6EA369</color>// 110 163 105
-    <color name="colorStatusBar8">#E4A469</color>// 228 164 105
+    <color name="colorStatusBar8">#304FC1</color>// 228 164 105
 
     <!-- HeaderBar Color -->
     <color name="colorHeaderBar1">#E9B6AA</color>// 233 182 170
