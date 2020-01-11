@@ -226,6 +226,8 @@ public class MainFragment extends BaseFragment implements MainContract.MainView 
         emptyText.setVisibility(View.VISIBLE);
         if (MyApplication.selectNavigationItem != Constant.NavigationItem.DELETE) {
             emptyText.setText("メモがありません。");
+        } else {
+            emptyText.setText("空です");
         }
     }
 
