@@ -34,7 +34,7 @@ public class SharedPreferencesUtil {
     }
 
     public enum MojiSizeSetting {
-        MojiSmall(R.string.small, 8), MojiDefault(R.string.defaultStr, 16), MojiBig(R.string.big, 20);
+        MojiSmall(R.string.small, 12), MojiDefault(R.string.defaultStr, 16), MojiBig(R.string.big, 20);
         int mojiSize;
         int mojiNameResId;
         MojiSizeSetting(int nameResId, int size) {
