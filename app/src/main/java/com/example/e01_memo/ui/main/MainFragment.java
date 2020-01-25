@@ -227,8 +227,6 @@ public class MainFragment extends BaseFragment implements MainContract.MainView 
         if (MyApplication.selectNavigationItem != Constant.NavigationItem.DELETE) {
             emptyText.setText(R.string.not_memo);
         } else {
-            emptyText.setText("空です");
-        } else {
             emptyText.setText(R.string.not_delete_memo);
         }
     }
