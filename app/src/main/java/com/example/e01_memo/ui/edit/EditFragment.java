@@ -155,7 +155,9 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
 
     @Override
     public void hideSoftKeyboard() {
-        inputMethodManager.hideSoftInputFromWindow(getActivity().getWindow().getCurrentFocus().getWindowToken(), 0);
+        if (getActivity().getWindow().getCurrentFocus() != null) {
+            inputMethodManager.hideSoftInputFromWindow(getActivity().getWindow().getCurrentFocus().getWindowToken(), 0);
+        }
     }
 
     @Override
