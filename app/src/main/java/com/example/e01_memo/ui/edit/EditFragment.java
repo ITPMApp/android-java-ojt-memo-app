@@ -129,6 +129,7 @@ public class EditFragment extends BaseFragment implements EditContract.EditView,
     @Override
     public void onResume() {
         if (selectId == -1)  {
+            editText.requestFocus();
             showSoftKeyboard();
         } else {
             getActivity().getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
